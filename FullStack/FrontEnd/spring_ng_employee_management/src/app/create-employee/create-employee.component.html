@@ -1,0 +1,22 @@
+<h1>Add employee</h1>
+
+<form (ngSubmit)="onSubmit()">
+
+    <div>
+        <label>Name</label>
+        <input type="text" id="name" [(ngModel)]="employee.name" name="name">
+    </div>
+
+    <div>
+        <label>email</label>
+        <input type="text" id="email" [(ngModel)]="employee.email" name="email">
+    </div>
+
+    <div>
+        <label>age</label>
+        <input type="text" id="age" [(ngModel)]="employee.age" name="age">
+    </div>
+
+    <button type="submit">Submit</button>
+
+</form>

@@ -1,0 +1,23 @@
+.main-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.u-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.list-link {
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+}
+
+.list-link a {
+    font-size: 18px;
+    text-decoration: none;
+    list-style: none;
+}
